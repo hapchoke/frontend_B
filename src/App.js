@@ -31,7 +31,7 @@ function From(props){
   const [text, setText] = useState("");
 
   const add_text = ()=>{
-    if(text!=''){
+    if(text!==''){
       props.addState(text);
       setText('');
     }
